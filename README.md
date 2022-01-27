@@ -17,6 +17,4 @@ dependencies {
 }
 ```
 
-<video id="video" controls="" preload="none" poster="封面">
-      <source id="mp4" src="pic/preview.mp4" type="video/mp4">
-</videos>
+![](pic/preview.gif)
