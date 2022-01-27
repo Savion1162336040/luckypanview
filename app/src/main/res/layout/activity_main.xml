@@ -6,13 +6,33 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <com.savion.luckypanview.StaticPanView
+        android:layout_width="0dp"
+        app:layout_constraintWidth_percent="0.8"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/staticpan"
+        app:static_pan_divider_mode="mode_single"
+        app:static_pan_chainstyle="spread_inside"
+        app:static_pan_pointer="@mipmap/ic_launcher"
+        app:static_pan_pointer_ratio="0.1"
+        app:static_pan_draw_text_size="10dp"
+        app:static_pan_draw_text_line="3"
+        app:static_pan_draw_text_x_start_ratio="0.2"
+        app:static_pan_draw_text_x_end_ratio="0.9"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="start"
+        android:id="@+id/start"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
