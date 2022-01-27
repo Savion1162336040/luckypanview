@@ -11,3 +11,8 @@ allprojects {
 }
 ```
 ### Step 2. Add the dependency
+```
+dependencies {
+    implementation 'com.github.Savion1162336040:luckypanview:1.0'
+}
+```
