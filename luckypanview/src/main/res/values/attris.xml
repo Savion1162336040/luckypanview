@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="StaticPanView">
+        <attr name="static_pan_style_pojo" format="reference" />
+        <attr name="static_pan_divider_color" format="color" />
+        <!--        描边样式-->
+        <attr name="static_pan_divider_mode" format="enum">
+            <!--            无描边-->
+            <enum name="mode_none" value="0" />
+            <!--            单条描边-->
+            <enum name="mode_single" value="1" />
+            <!--            两条描边-->
+            <enum name="mode_double" value="2" />
+        </attr>
+        <!--        描边比例尺寸-->
+        <attr name="static_pan_divider_ratio" format="float" />
+        <!--        抗锯齿-->
+        <attr name="static_pan_antialias" format="boolean" />
+        <attr name="static_pan_empty_mark" format="reference" />
+        <!--        单盘片绘制文本x终点所占半径比例-->
+        <attr name="static_pan_draw_text_x_end_ratio" format="float" />
+        <!--        单盘片绘制文本x起点占半径比例-->
+        <attr name="static_pan_draw_text_x_start_ratio" format="float" />
+        <!--        指针-->
+        <attr name="static_pan_pointer" format="reference" />
+        <!--        指针宽度所占比例-->
+        <attr name="static_pan_pointer_ratio" format="float" />
+        <!--        单盘片绘制文本颜色-->
+        <attr name="static_pan_draw_text_color" format="color" />
+        <!--        文字大小-->
+        <attr name="static_pan_draw_text_size" format="dimension" />
+        <!--        每个圆盘中文字的行数,默认1，最小1-->
+        <attr name="static_pan_draw_text_line" format="integer" />
+        <!--        每个圆盘之间是否画间隔线-->
+        <attr name="static_pan_draw_split_line" format="boolean" />
+        <!--        每个圆盘之前 间隔线颜色-->
+        <attr name="static_pan_draw_split_line_color" format="color" />
+        <attr name="static_pan_chainstyle" format="enum">
+            <enum name="spread" value="1" />
+            <enum name="spread_inside" value="2" />
+        </attr>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,3 @@
+include ':luckypanview'
+include ':app'
+rootProject.name = "LuckyPanView"
