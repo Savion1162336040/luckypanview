@@ -28,7 +28,7 @@
 |static_pan_draw_text_line|int|文字显示最大行数,根据实际文字数量与可显示区域宽度自动换行,默认1|
 |static_pan_draw_split_line|boolean|每个盘片之间是否有分隔线,默认false|
 |static_pan_draw_split_line_color|int|盘片分隔线颜色,默认white|
-|static_pan_chainstyle|enum|盘片权重模式<br>spread:数量等分，按照盘片数量平均分布![](pic/spread.jpg)<br>spread_inside:权重分布，按照各个盘片的权重数值动态计算所占圆盘的比例![](pic/spread_inside.jpg)|
+|static_pan_chainstyle|enum|盘片权重模式<br>spread:数量等分，按照盘片数量平均分布![](pic/spread.jpg =100*100)<br>spread_inside:权重分布，按照各个盘片的权重数值动态计算所占圆盘的比例![](pic/spread_inside.jpg =200x200)|
 
 ## 项目依赖
 [![](https://jitpack.io/v/Savion1162336040/luckypanview.svg)](https://jitpack.io/#Savion1162336040/luckypanview)
