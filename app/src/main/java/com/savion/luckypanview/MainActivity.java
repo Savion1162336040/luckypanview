@@ -99,15 +99,15 @@ public class MainActivity extends AppCompatActivity {
         public Data() {
             Data2 data2 = new Data2();
             data2.setName("name1111");
-            data2.setWeight(2);
+            data2.setWeight(1);
             data2s.add(data2);
             data2 = new Data2();
             data2.setName("name222");
-            data2.setWeight(3);
+            data2.setWeight(1);
             data2s.add(data2);
             data2 = new Data2();
             data2.setName("name3331");
-            data2.setWeight(4);
+            data2.setWeight(1);
             data2s.add(data2);
             data2 = new Data2();
             data2.setName("name4441");

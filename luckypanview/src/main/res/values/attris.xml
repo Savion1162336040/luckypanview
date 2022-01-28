@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <declare-styleable name="StaticPanView">
+        <!--   databinding属性，设置转盘样式颜色  -->
         <attr name="static_pan_style_pojo" format="reference" />
+        <!--   databinding属性，设置转盘权重与盘片数据 -->
+        <attr name="static_pan_pojo" format="reference"/>
         <attr name="static_pan_divider_color" format="color" />
         <!--        描边样式-->
         <attr name="static_pan_divider_mode" format="enum">
